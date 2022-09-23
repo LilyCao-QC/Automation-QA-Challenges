@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Steps:
+1. Enter Sign-up page 
+2. Input all required information
+3. Click &quot;Sign in&quot;
+
+Expected Result: 
+- User should access the home page successfully</description>
+   <name>Create account successfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7c974e38-bd50-4cfb-9e47-e53c6e0802fe</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4b230c93-0020-4c8d-8825-9c5b691d4b6d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a94faa71-dead-4f5f-95e6-4bc0b5524df3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0d022f75-19df-4bcb-a2c7-f96666627512</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'ja00'</defaultValue>
+      <description></description>
+      <id>4b230c93-0020-4c8d-8825-9c5b691d4b6d</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'ja00@yopmail.com'</defaultValue>
+      <description></description>
+      <id>a94faa71-dead-4f5f-95e6-4bc0b5524df3</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password1@'</defaultValue>
+      <description></description>
+      <id>0d022f75-19df-4bcb-a2c7-f96666627512</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
